@@ -1,0 +1,18 @@
+package ua.enver.structural.bridge.developers;
+
+/**
+ * @author Enver on 17.05.2019 1:27.
+ * @project patterns
+ */
+public class BankSystem extends Program {
+
+    protected BankSystem(Developer developer) {
+        super(developer);
+    }
+
+    @Override
+    public void developProgram() {
+        System.out.println("Bank system development in progress...");
+        developer.writeCode();
+    }
+}

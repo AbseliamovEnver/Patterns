@@ -6,7 +6,7 @@ package ua.enver.creational.abstractfactory.car;
  */
 public class CarDriveFactory {
     public static void main(String[] args) {
-        Factory carFactory = new AbstractFactory().createFactory("Car");
+        Factory carFactory = new AbstractFactory().createFactory("Transmission");
         Car audi = carFactory.createCar("Audi");
         Car toyota = carFactory.createCar("Toyota");
         audi.drive();

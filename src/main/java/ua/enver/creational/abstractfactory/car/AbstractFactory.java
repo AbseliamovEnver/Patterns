@@ -10,7 +10,7 @@ import ua.enver.creational.abstractfactory.car.truck.TruckFactory;
 public class AbstractFactory {
     Factory createFactory(String typeOfFactory){
         switch (typeOfFactory){
-            case "Car": return new CarFactory();
+            case "Transmission": return new CarFactory();
             case "Truck": return new TruckFactory();
             default: return null;
         }

@@ -1,4 +1,4 @@
-package ua.enver.behavioral.command;
+package ua.enver.behavioral.command.database;
 
 /**
  * @author Enver on 18.05.2019 22:48.
